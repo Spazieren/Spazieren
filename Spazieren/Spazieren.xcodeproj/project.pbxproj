@@ -8,23 +8,89 @@
 
 /* Begin PBXBuildFile section */
 		07DCC3DBA787CAD77F508CD7 /* Pods_Spazieren.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DB9DA4BF265C3DD3593865 /* Pods_Spazieren.framework */; };
-		BEA2C0811D7AE52300B8080C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA2C0801D7AE52300B8080C /* AppDelegate.swift */; };
 		BEA2C0831D7AE52300B8080C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA2C0821D7AE52300B8080C /* ViewController.swift */; };
 		BEA2C0861D7AE52300B8080C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA2C0841D7AE52300B8080C /* Main.storyboard */; };
 		BEA2C0881D7AE52300B8080C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA2C0871D7AE52300B8080C /* Assets.xcassets */; };
 		BEA2C08B1D7AE52300B8080C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA2C0891D7AE52300B8080C /* LaunchScreen.storyboard */; };
+		BEF720941D7AEBC000DC01AB /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7205B1D7AEBC000DC01AB /* NSArray+Log.m */; };
+		BEF720951D7AEBC000DC01AB /* NSAttributedString+WMAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7205D1D7AEBC000DC01AB /* NSAttributedString+WMAdditon.m */; };
+		BEF720961D7AEBC000DC01AB /* NSObject+WMRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7205F1D7AEBC000DC01AB /* NSObject+WMRuntime.m */; };
+		BEF720971D7AEBC000DC01AB /* NSString+WMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF720611D7AEBC000DC01AB /* NSString+WMBase64.m */; };
+		BEF720981D7AEBC000DC01AB /* NSString+WMHash.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF720631D7AEBC000DC01AB /* NSString+WMHash.m */; };
+		BEF720991D7AEBC000DC01AB /* NSString+WMPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF720651D7AEBC000DC01AB /* NSString+WMPath.m */; };
+		BEF7209A1D7AEBC000DC01AB /* UIButton+WMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF720671D7AEBC000DC01AB /* UIButton+WMAddition.m */; };
+		BEF7209B1D7AEBC000DC01AB /* UIColor+WMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF720691D7AEBC000DC01AB /* UIColor+WMAddition.m */; };
+		BEF7209C1D7AEBC000DC01AB /* UILabel+WMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7206B1D7AEBC000DC01AB /* UILabel+WMAddition.m */; };
+		BEF7209D1D7AEBC000DC01AB /* UIScreen+WMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7206D1D7AEBC000DC01AB /* UIScreen+WMAddition.m */; };
+		BEF7209E1D7AEBC000DC01AB /* UIView+WMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7206F1D7AEBC000DC01AB /* UIView+WMAddition.m */; };
+		BEF7209F1D7AEBC000DC01AB /* UIViewController+WMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF720711D7AEBC000DC01AB /* UIViewController+WMAddition.m */; };
+		BEF720A01D7AEBC000DC01AB /* EVHumanRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720741D7AEBC000DC01AB /* EVHumanRefreshView.xib */; };
+		BEF720A11D7AEBC000DC01AB /* EVRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720751D7AEBC000DC01AB /* EVRefreshControl.swift */; };
+		BEF720A21D7AEBC000DC01AB /* EVRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720761D7AEBC000DC01AB /* EVRefreshView.swift */; };
+		BEF720A31D7AEBC000DC01AB /* EVRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720771D7AEBC000DC01AB /* EVRefreshView.xib */; };
+		BEF720A41D7AEBC000DC01AB /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720791D7AEBC000DC01AB /* Bundle+Extension.swift */; };
+		BEF720A51D7AEBC000DC01AB /* WMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7207A1D7AEBC000DC01AB /* WMLabel.swift */; };
+		BEF720A61D7AEBC000DC01AB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7207B1D7AEBC000DC01AB /* String+Extension.swift */; };
+		BEF720A71D7AEBC000DC01AB /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7207C1D7AEBC000DC01AB /* UIBarButtonItem+Extension.swift */; };
+		BEF720A81D7AEBC000DC01AB /* UIimage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7207D1D7AEBC000DC01AB /* UIimage+Extension.swift */; };
+		BEF720A91D7AEBC000DC01AB /* UIimageView+WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7207E1D7AEBC000DC01AB /* UIimageView+WebImage.swift */; };
+		BEF720AA1D7AEBC000DC01AB /* WMCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720811D7AEBC000DC01AB /* WMCommon.swift */; };
+		BEF720AB1D7AEBC000DC01AB /* WMMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720871D7AEBC000DC01AB /* WMMainViewController.swift */; };
+		BEF720AC1D7AEBC000DC01AB /* WMVistorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7208C1D7AEBC000DC01AB /* WMVistorViewController.swift */; };
+		BEF720AD1D7AEBC000DC01AB /* WMRunTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720901D7AEBC000DC01AB /* WMRunTypeView.swift */; };
+		BEF720AF1D7AEBD800DC01AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720AE1D7AEBD800DC01AB /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2ACA18DF66780FC1292068F2 /* Pods-Spazieren.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spazieren.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spazieren/Pods-Spazieren.debug.xcconfig"; sourceTree = "<group>"; };
 		9E18C82E80D268B8A8ABAD62 /* Pods-Spazieren.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spazieren.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spazieren/Pods-Spazieren.release.xcconfig"; sourceTree = "<group>"; };
 		BEA2C07D1D7AE52300B8080C /* Spazieren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spazieren.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEA2C0801D7AE52300B8080C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEA2C0821D7AE52300B8080C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEA2C0851D7AE52300B8080C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEA2C0871D7AE52300B8080C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEA2C08A1D7AE52300B8080C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEA2C08C1D7AE52300B8080C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF7205A1D7AEBC000DC01AB /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		BEF7205B1D7AEBC000DC01AB /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		BEF7205C1D7AEBC000DC01AB /* NSAttributedString+WMAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+WMAdditon.h"; sourceTree = "<group>"; };
+		BEF7205D1D7AEBC000DC01AB /* NSAttributedString+WMAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+WMAdditon.m"; sourceTree = "<group>"; };
+		BEF7205E1D7AEBC000DC01AB /* NSObject+WMRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WMRuntime.h"; sourceTree = "<group>"; };
+		BEF7205F1D7AEBC000DC01AB /* NSObject+WMRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WMRuntime.m"; sourceTree = "<group>"; };
+		BEF720601D7AEBC000DC01AB /* NSString+WMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WMBase64.h"; sourceTree = "<group>"; };
+		BEF720611D7AEBC000DC01AB /* NSString+WMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WMBase64.m"; sourceTree = "<group>"; };
+		BEF720621D7AEBC000DC01AB /* NSString+WMHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WMHash.h"; sourceTree = "<group>"; };
+		BEF720631D7AEBC000DC01AB /* NSString+WMHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WMHash.m"; sourceTree = "<group>"; };
+		BEF720641D7AEBC000DC01AB /* NSString+WMPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WMPath.h"; sourceTree = "<group>"; };
+		BEF720651D7AEBC000DC01AB /* NSString+WMPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WMPath.m"; sourceTree = "<group>"; };
+		BEF720661D7AEBC000DC01AB /* UIButton+WMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WMAddition.h"; sourceTree = "<group>"; };
+		BEF720671D7AEBC000DC01AB /* UIButton+WMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WMAddition.m"; sourceTree = "<group>"; };
+		BEF720681D7AEBC000DC01AB /* UIColor+WMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WMAddition.h"; sourceTree = "<group>"; };
+		BEF720691D7AEBC000DC01AB /* UIColor+WMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WMAddition.m"; sourceTree = "<group>"; };
+		BEF7206A1D7AEBC000DC01AB /* UILabel+WMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WMAddition.h"; sourceTree = "<group>"; };
+		BEF7206B1D7AEBC000DC01AB /* UILabel+WMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WMAddition.m"; sourceTree = "<group>"; };
+		BEF7206C1D7AEBC000DC01AB /* UIScreen+WMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+WMAddition.h"; sourceTree = "<group>"; };
+		BEF7206D1D7AEBC000DC01AB /* UIScreen+WMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+WMAddition.m"; sourceTree = "<group>"; };
+		BEF7206E1D7AEBC000DC01AB /* UIView+WMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WMAddition.h"; sourceTree = "<group>"; };
+		BEF7206F1D7AEBC000DC01AB /* UIView+WMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WMAddition.m"; sourceTree = "<group>"; };
+		BEF720701D7AEBC000DC01AB /* UIViewController+WMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WMAddition.h"; sourceTree = "<group>"; };
+		BEF720711D7AEBC000DC01AB /* UIViewController+WMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WMAddition.m"; sourceTree = "<group>"; };
+		BEF720721D7AEBC000DC01AB /* WMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAdditions.h; sourceTree = "<group>"; };
+		BEF720741D7AEBC000DC01AB /* EVHumanRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EVHumanRefreshView.xib; sourceTree = "<group>"; };
+		BEF720751D7AEBC000DC01AB /* EVRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVRefreshControl.swift; sourceTree = "<group>"; };
+		BEF720761D7AEBC000DC01AB /* EVRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVRefreshView.swift; sourceTree = "<group>"; };
+		BEF720771D7AEBC000DC01AB /* EVRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EVRefreshView.xib; sourceTree = "<group>"; };
+		BEF720791D7AEBC000DC01AB /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		BEF7207A1D7AEBC000DC01AB /* WMLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMLabel.swift; sourceTree = "<group>"; };
+		BEF7207B1D7AEBC000DC01AB /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		BEF7207C1D7AEBC000DC01AB /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		BEF7207D1D7AEBC000DC01AB /* UIimage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIimage+Extension.swift"; sourceTree = "<group>"; };
+		BEF7207E1D7AEBC000DC01AB /* UIimageView+WebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIimageView+WebImage.swift"; sourceTree = "<group>"; };
+		BEF720811D7AEBC000DC01AB /* WMCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMCommon.swift; sourceTree = "<group>"; };
+		BEF720871D7AEBC000DC01AB /* WMMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMMainViewController.swift; sourceTree = "<group>"; };
+		BEF7208C1D7AEBC000DC01AB /* WMVistorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMVistorViewController.swift; sourceTree = "<group>"; };
+		BEF720901D7AEBC000DC01AB /* WMRunTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMRunTypeView.swift; sourceTree = "<group>"; };
+		BEF720AE1D7AEBD800DC01AB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = class/AppDelegate.swift; sourceTree = "<group>"; };
+		BEF720B81D7AEC0E00DC01AB /* Spazieren-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spazieren-Bridge.h"; sourceTree = "<group>"; };
 		F6DB9DA4BF265C3DD3593865 /* Pods_Spazieren.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spazieren.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,14 +144,222 @@
 		BEA2C07F1D7AE52300B8080C /* Spazieren */ = {
 			isa = PBXGroup;
 			children = (
-				BEA2C0801D7AE52300B8080C /* AppDelegate.swift */,
+				BEF720501D7AEBC000DC01AB /* class */,
 				BEA2C0821D7AE52300B8080C /* ViewController.swift */,
+				BEF720AE1D7AEBD800DC01AB /* AppDelegate.swift */,
 				BEA2C0841D7AE52300B8080C /* Main.storyboard */,
 				BEA2C0871D7AE52300B8080C /* Assets.xcassets */,
 				BEA2C0891D7AE52300B8080C /* LaunchScreen.storyboard */,
 				BEA2C08C1D7AE52300B8080C /* Info.plist */,
+				BEF720B81D7AEC0E00DC01AB /* Spazieren-Bridge.h */,
 			);
 			path = Spazieren;
+			sourceTree = "<group>";
+		};
+		BEF720501D7AEBC000DC01AB /* class */ = {
+			isa = PBXGroup;
+			children = (
+				BEF720511D7AEBC000DC01AB /* Model */,
+				BEF720581D7AEBC000DC01AB /* Tools */,
+				BEF720821D7AEBC000DC01AB /* View */,
+				BEF720911D7AEBC000DC01AB /* ViewModel */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		BEF720511D7AEBC000DC01AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEF720581D7AEBC000DC01AB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BEF720591D7AEBC000DC01AB /* Additions */,
+				BEF720731D7AEBC000DC01AB /* EVRefreshControl */,
+				BEF720781D7AEBC000DC01AB /* Extensions */,
+				BEF7207F1D7AEBC000DC01AB /* Network */,
+				BEF720811D7AEBC000DC01AB /* WMCommon.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		BEF720591D7AEBC000DC01AB /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				BEF7205A1D7AEBC000DC01AB /* NSArray+Log.h */,
+				BEF7205B1D7AEBC000DC01AB /* NSArray+Log.m */,
+				BEF7205C1D7AEBC000DC01AB /* NSAttributedString+WMAdditon.h */,
+				BEF7205D1D7AEBC000DC01AB /* NSAttributedString+WMAdditon.m */,
+				BEF7205E1D7AEBC000DC01AB /* NSObject+WMRuntime.h */,
+				BEF7205F1D7AEBC000DC01AB /* NSObject+WMRuntime.m */,
+				BEF720601D7AEBC000DC01AB /* NSString+WMBase64.h */,
+				BEF720611D7AEBC000DC01AB /* NSString+WMBase64.m */,
+				BEF720621D7AEBC000DC01AB /* NSString+WMHash.h */,
+				BEF720631D7AEBC000DC01AB /* NSString+WMHash.m */,
+				BEF720641D7AEBC000DC01AB /* NSString+WMPath.h */,
+				BEF720651D7AEBC000DC01AB /* NSString+WMPath.m */,
+				BEF720661D7AEBC000DC01AB /* UIButton+WMAddition.h */,
+				BEF720671D7AEBC000DC01AB /* UIButton+WMAddition.m */,
+				BEF720681D7AEBC000DC01AB /* UIColor+WMAddition.h */,
+				BEF720691D7AEBC000DC01AB /* UIColor+WMAddition.m */,
+				BEF7206A1D7AEBC000DC01AB /* UILabel+WMAddition.h */,
+				BEF7206B1D7AEBC000DC01AB /* UILabel+WMAddition.m */,
+				BEF7206C1D7AEBC000DC01AB /* UIScreen+WMAddition.h */,
+				BEF7206D1D7AEBC000DC01AB /* UIScreen+WMAddition.m */,
+				BEF7206E1D7AEBC000DC01AB /* UIView+WMAddition.h */,
+				BEF7206F1D7AEBC000DC01AB /* UIView+WMAddition.m */,
+				BEF720701D7AEBC000DC01AB /* UIViewController+WMAddition.h */,
+				BEF720711D7AEBC000DC01AB /* UIViewController+WMAddition.m */,
+				BEF720721D7AEBC000DC01AB /* WMAdditions.h */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		BEF720731D7AEBC000DC01AB /* EVRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				BEF720741D7AEBC000DC01AB /* EVHumanRefreshView.xib */,
+				BEF720751D7AEBC000DC01AB /* EVRefreshControl.swift */,
+				BEF720761D7AEBC000DC01AB /* EVRefreshView.swift */,
+				BEF720771D7AEBC000DC01AB /* EVRefreshView.xib */,
+			);
+			path = EVRefreshControl;
+			sourceTree = "<group>";
+		};
+		BEF720781D7AEBC000DC01AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BEF720791D7AEBC000DC01AB /* Bundle+Extension.swift */,
+				BEF7207A1D7AEBC000DC01AB /* WMLabel.swift */,
+				BEF7207B1D7AEBC000DC01AB /* String+Extension.swift */,
+				BEF7207C1D7AEBC000DC01AB /* UIBarButtonItem+Extension.swift */,
+				BEF7207D1D7AEBC000DC01AB /* UIimage+Extension.swift */,
+				BEF7207E1D7AEBC000DC01AB /* UIimageView+WebImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BEF7207F1D7AEBC000DC01AB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BEF720801D7AEBC000DC01AB /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BEF720801D7AEBC000DC01AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEF720821D7AEBC000DC01AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEF720831D7AEBC000DC01AB /* Discover */,
+				BEF720841D7AEBC000DC01AB /* Home */,
+				BEF720851D7AEBC000DC01AB /* Main */,
+				BEF7208D1D7AEBC000DC01AB /* Profile */,
+				BEF7208E1D7AEBC000DC01AB /* Run */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEF720831D7AEBC000DC01AB /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		BEF720841D7AEBC000DC01AB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BEF720851D7AEBC000DC01AB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BEF720861D7AEBC000DC01AB /* MainViewController */,
+				BEF720881D7AEBC000DC01AB /* NewFeature */,
+				BEF720891D7AEBC000DC01AB /* OAuth */,
+				BEF7208A1D7AEBC000DC01AB /* Test */,
+				BEF7208B1D7AEBC000DC01AB /* VisitorView */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BEF720861D7AEBC000DC01AB /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BEF720871D7AEBC000DC01AB /* WMMainViewController.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		BEF720881D7AEBC000DC01AB /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		BEF720891D7AEBC000DC01AB /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		BEF7208A1D7AEBC000DC01AB /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		BEF7208B1D7AEBC000DC01AB /* VisitorView */ = {
+			isa = PBXGroup;
+			children = (
+				BEF7208C1D7AEBC000DC01AB /* WMVistorViewController.swift */,
+			);
+			path = VisitorView;
+			sourceTree = "<group>";
+		};
+		BEF7208D1D7AEBC000DC01AB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BEF7208E1D7AEBC000DC01AB /* Run */ = {
+			isa = PBXGroup;
+			children = (
+				BEF7208F1D7AEBC000DC01AB /* RunType */,
+			);
+			path = Run;
+			sourceTree = "<group>";
+		};
+		BEF7208F1D7AEBC000DC01AB /* RunType */ = {
+			isa = PBXGroup;
+			children = (
+				BEF720901D7AEBC000DC01AB /* WMRunTypeView.swift */,
+			);
+			path = RunType;
+			sourceTree = "<group>";
+		};
+		BEF720911D7AEBC000DC01AB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +424,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF720A01D7AEBC000DC01AB /* EVHumanRefreshView.xib in Resources */,
 				BEA2C08B1D7AE52300B8080C /* LaunchScreen.storyboard in Resources */,
 				BEA2C0881D7AE52300B8080C /* Assets.xcassets in Resources */,
+				BEF720A31D7AEBC000DC01AB /* EVRefreshView.xib in Resources */,
 				BEA2C0861D7AE52300B8080C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,8 +487,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF720AD1D7AEBC000DC01AB /* WMRunTypeView.swift in Sources */,
+				BEF7209F1D7AEBC000DC01AB /* UIViewController+WMAddition.m in Sources */,
+				BEF720A41D7AEBC000DC01AB /* Bundle+Extension.swift in Sources */,
+				BEF720AC1D7AEBC000DC01AB /* WMVistorViewController.swift in Sources */,
+				BEF720991D7AEBC000DC01AB /* NSString+WMPath.m in Sources */,
+				BEF720A61D7AEBC000DC01AB /* String+Extension.swift in Sources */,
+				BEF720981D7AEBC000DC01AB /* NSString+WMHash.m in Sources */,
+				BEF720AB1D7AEBC000DC01AB /* WMMainViewController.swift in Sources */,
+				BEF720AF1D7AEBD800DC01AB /* AppDelegate.swift in Sources */,
+				BEF720A91D7AEBC000DC01AB /* UIimageView+WebImage.swift in Sources */,
+				BEF720A21D7AEBC000DC01AB /* EVRefreshView.swift in Sources */,
+				BEF720A51D7AEBC000DC01AB /* WMLabel.swift in Sources */,
+				BEF720971D7AEBC000DC01AB /* NSString+WMBase64.m in Sources */,
+				BEF720941D7AEBC000DC01AB /* NSArray+Log.m in Sources */,
+				BEF720961D7AEBC000DC01AB /* NSObject+WMRuntime.m in Sources */,
+				BEF7209D1D7AEBC000DC01AB /* UIScreen+WMAddition.m in Sources */,
+				BEF7209C1D7AEBC000DC01AB /* UILabel+WMAddition.m in Sources */,
+				BEF720A71D7AEBC000DC01AB /* UIBarButtonItem+Extension.swift in Sources */,
 				BEA2C0831D7AE52300B8080C /* ViewController.swift in Sources */,
-				BEA2C0811D7AE52300B8080C /* AppDelegate.swift in Sources */,
+				BEF7209E1D7AEBC000DC01AB /* UIView+WMAddition.m in Sources */,
+				BEF720A81D7AEBC000DC01AB /* UIimage+Extension.swift in Sources */,
+				BEF720AA1D7AEBC000DC01AB /* WMCommon.swift in Sources */,
+				BEF720A11D7AEBC000DC01AB /* EVRefreshControl.swift in Sources */,
+				BEF720951D7AEBC000DC01AB /* NSAttributedString+WMAdditon.m in Sources */,
+				BEF7209A1D7AEBC000DC01AB /* UIButton+WMAddition.m in Sources */,
+				BEF7209B1D7AEBC000DC01AB /* UIColor+WMAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +581,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INCLUDE_PATHS = Users/lucas7042/Spazieren/Spazieren/class;
+				SWIFT_OBJC_BRIDGING_HEADER = "Spazieren-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -320,6 +622,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = Users/lucas7042/Spazieren/Spazieren/class;
+				SWIFT_OBJC_BRIDGING_HEADER = "Spazieren-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -331,9 +635,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spazieren/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Spazieren/class/openSDK1.7.2",
+					"$(PROJECT_DIR)/Spazieren/openSDK1.7.2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.weimakejikongu.weima.Spazieren;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -344,9 +655,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spazieren/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Spazieren/class/openSDK1.7.2",
+					"$(PROJECT_DIR)/Spazieren/openSDK1.7.2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.weimakejikongu.weima.Spazieren;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
