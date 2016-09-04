@@ -7,476 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07DCC3DBA787CAD77F508CD7 /* Pods_Spazieren.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DB9DA4BF265C3DD3593865 /* Pods_Spazieren.framework */; };
-		BE8F6CCA1D7B5850006A1F00 /* WMVisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8F6CC91D7B5850006A1F00 /* WMVisitorView.xib */; };
-		BE8F6CCC1D7BE67B006A1F00 /* WMProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F6CCB1D7BE67B006A1F00 /* WMProfileViewController.swift */; };
-		BE8F6CCE1D7BE698006A1F00 /* WMDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F6CCD1D7BE698006A1F00 /* WMDiscoverViewController.swift */; };
-		BE8F6CD11D7BE742006A1F00 /* WMMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F6CD01D7BE742006A1F00 /* WMMessageViewController.swift */; };
-		BEA2C0881D7AE52300B8080C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA2C0871D7AE52300B8080C /* Assets.xcassets */; };
-		BEEFBBC81D7B3B1100BBF8FD /* WBDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFBBC71D7B3B1100BBF8FD /* WBDemoViewController.swift */; };
-		BEF720941D7AEBC000DC01AB /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7205B1D7AEBC000DC01AB /* NSArray+Log.m */; };
-		BEF720951D7AEBC000DC01AB /* NSAttributedString+WMAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7205D1D7AEBC000DC01AB /* NSAttributedString+WMAdditon.m */; };
-		BEF720961D7AEBC000DC01AB /* NSObject+WMRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7205F1D7AEBC000DC01AB /* NSObject+WMRuntime.m */; };
-		BEF720971D7AEBC000DC01AB /* NSString+WMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF720611D7AEBC000DC01AB /* NSString+WMBase64.m */; };
-		BEF720981D7AEBC000DC01AB /* NSString+WMHash.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF720631D7AEBC000DC01AB /* NSString+WMHash.m */; };
-		BEF720991D7AEBC000DC01AB /* NSString+WMPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF720651D7AEBC000DC01AB /* NSString+WMPath.m */; };
-		BEF7209A1D7AEBC000DC01AB /* UIButton+WMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF720671D7AEBC000DC01AB /* UIButton+WMAddition.m */; };
-		BEF7209B1D7AEBC000DC01AB /* UIColor+WMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF720691D7AEBC000DC01AB /* UIColor+WMAddition.m */; };
-		BEF7209C1D7AEBC000DC01AB /* UILabel+WMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7206B1D7AEBC000DC01AB /* UILabel+WMAddition.m */; };
-		BEF7209D1D7AEBC000DC01AB /* UIScreen+WMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7206D1D7AEBC000DC01AB /* UIScreen+WMAddition.m */; };
-		BEF7209E1D7AEBC000DC01AB /* UIView+WMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7206F1D7AEBC000DC01AB /* UIView+WMAddition.m */; };
-		BEF7209F1D7AEBC000DC01AB /* UIViewController+WMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF720711D7AEBC000DC01AB /* UIViewController+WMAddition.m */; };
-		BEF720A01D7AEBC000DC01AB /* EVHumanRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720741D7AEBC000DC01AB /* EVHumanRefreshView.xib */; };
-		BEF720A11D7AEBC000DC01AB /* EVRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720751D7AEBC000DC01AB /* EVRefreshControl.swift */; };
-		BEF720A21D7AEBC000DC01AB /* EVRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720761D7AEBC000DC01AB /* EVRefreshView.swift */; };
-		BEF720A31D7AEBC000DC01AB /* EVRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720771D7AEBC000DC01AB /* EVRefreshView.xib */; };
-		BEF720A41D7AEBC000DC01AB /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720791D7AEBC000DC01AB /* Bundle+Extension.swift */; };
-		BEF720A51D7AEBC000DC01AB /* WMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7207A1D7AEBC000DC01AB /* WMLabel.swift */; };
-		BEF720A61D7AEBC000DC01AB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7207B1D7AEBC000DC01AB /* String+Extension.swift */; };
-		BEF720A71D7AEBC000DC01AB /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7207C1D7AEBC000DC01AB /* UIBarButtonItem+Extension.swift */; };
-		BEF720A81D7AEBC000DC01AB /* UIimage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7207D1D7AEBC000DC01AB /* UIimage+Extension.swift */; };
-		BEF720A91D7AEBC000DC01AB /* UIimageView+WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7207E1D7AEBC000DC01AB /* UIimageView+WebImage.swift */; };
-		BEF720AA1D7AEBC000DC01AB /* WMCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720811D7AEBC000DC01AB /* WMCommon.swift */; };
-		BEF720AB1D7AEBC000DC01AB /* WMMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720871D7AEBC000DC01AB /* WMMainViewController.swift */; };
-		BEF720AC1D7AEBC000DC01AB /* WMVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7208C1D7AEBC000DC01AB /* WMVisitorView.swift */; };
-		BEF720AF1D7AEBD800DC01AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720AE1D7AEBD800DC01AB /* AppDelegate.swift */; };
-		BEF720BA1D7B17D800DC01AB /* WMOAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720B91D7B17D800DC01AB /* WMOAuthViewController.swift */; };
-		BEF720C31D7B1C5B00DC01AB /* WMNewFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720C11D7B1C5B00DC01AB /* WMNewFeatureView.swift */; };
-		BEF720C41D7B1C5B00DC01AB /* WMNewFeatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720C21D7B1C5B00DC01AB /* WMNewFeatureView.xib */; };
-		BEF720CA1D7B27C700DC01AB /* WMRunTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720C61D7B27C700DC01AB /* WMRunTypeButton.swift */; };
-		BEF720CB1D7B27C700DC01AB /* WMRunTypeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720C71D7B27C700DC01AB /* WMRunTypeButton.xib */; };
-		BEF720CC1D7B27C700DC01AB /* WMRunTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720C81D7B27C700DC01AB /* WMRunTypeView.swift */; };
-		BEF720CD1D7B27C700DC01AB /* WMRunTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720C91D7B27C700DC01AB /* WMRunTypeView.xib */; };
-		BEF720CF1D7B27DE00DC01AB /* WMRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720CE1D7B27DE00DC01AB /* WMRunViewController.swift */; };
-		BEF720D21D7B312300DC01AB /* WMWelComeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720D01D7B312300DC01AB /* WMWelComeView.xib */; };
-		BEF720D31D7B312300DC01AB /* WMWelComeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720D11D7B312300DC01AB /* WMWelComeView.swift */; };
-		BEF720D61D7B324900DC01AB /* WMTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720D51D7B324900DC01AB /* WMTitleButton.swift */; };
-		BEF720D81D7B325000DC01AB /* WBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720D71D7B325000DC01AB /* WBHomeViewController.swift */; };
-		BEF720DC1D7B32FA00DC01AB /* WMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720D91D7B32FA00DC01AB /* WMBaseViewController.swift */; };
-		BEF720DD1D7B32FA00DC01AB /* WMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720DA1D7B32FA00DC01AB /* WMNavigationController.swift */; };
-		BEF720DE1D7B32FA00DC01AB /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = BEF720DB1D7B32FA00DC01AB /* main.json */; };
-		BEF720E11D7B372800DC01AB /* WMStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720DF1D7B372800DC01AB /* WMStatusViewModel.swift */; };
-		BEF720E21D7B372800DC01AB /* WMStatusListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720E01D7B372800DC01AB /* WMStatusListViewModel.swift */; };
-		BEF720E91D7B378700DC01AB /* WMStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720E41D7B378700DC01AB /* WMStatusCell.swift */; };
-		BEF720EA1D7B378700DC01AB /* WMStatusNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720E51D7B378700DC01AB /* WMStatusNormalCell.xib */; };
-		BEF720EB1D7B378700DC01AB /* WMStatusPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720E61D7B378700DC01AB /* WMStatusPictureView.swift */; };
-		BEF720EC1D7B378700DC01AB /* WMStatusRetweetedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720E71D7B378700DC01AB /* WMStatusRetweetedCell.xib */; };
-		BEF720ED1D7B378700DC01AB /* WMStatusToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720E81D7B378700DC01AB /* WMStatusToolBar.swift */; };
-		BEF720F71D7B39BB00DC01AB /* WMNetwork+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720F41D7B39BB00DC01AB /* WMNetwork+extension.swift */; };
-		BEF720F81D7B39BB00DC01AB /* WMNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720F51D7B39BB00DC01AB /* WMNetworkManager.swift */; };
-		BEF720F91D7B39BB00DC01AB /* WMUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720F61D7B39BB00DC01AB /* WMUserAccount.swift */; };
+		BE1BD2581D7C2514006E549E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1BD2571D7C2514006E549E /* AppDelegate.swift */; };
+		BE1BD25A1D7C2514006E549E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1BD2591D7C2514006E549E /* ViewController.swift */; };
+		BE1BD25D1D7C2514006E549E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1BD25B1D7C2514006E549E /* Main.storyboard */; };
+		BE1BD25F1D7C2514006E549E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1BD25E1D7C2514006E549E /* Assets.xcassets */; };
+		BE1BD2621D7C2514006E549E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1BD2601D7C2514006E549E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2ACA18DF66780FC1292068F2 /* Pods-Spazieren.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spazieren.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spazieren/Pods-Spazieren.debug.xcconfig"; sourceTree = "<group>"; };
-		9E18C82E80D268B8A8ABAD62 /* Pods-Spazieren.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spazieren.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spazieren/Pods-Spazieren.release.xcconfig"; sourceTree = "<group>"; };
-		BE8F6CC91D7B5850006A1F00 /* WMVisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMVisitorView.xib; sourceTree = "<group>"; };
-		BE8F6CCB1D7BE67B006A1F00 /* WMProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMProfileViewController.swift; sourceTree = "<group>"; };
-		BE8F6CCD1D7BE698006A1F00 /* WMDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMDiscoverViewController.swift; sourceTree = "<group>"; };
-		BE8F6CD01D7BE742006A1F00 /* WMMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMMessageViewController.swift; sourceTree = "<group>"; };
-		BEA2C07D1D7AE52300B8080C /* Spazieren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spazieren.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEA2C0871D7AE52300B8080C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BEA2C08C1D7AE52300B8080C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEEFBBC71D7B3B1100BBF8FD /* WBDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDemoViewController.swift; sourceTree = "<group>"; };
-		BEF7205A1D7AEBC000DC01AB /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
-		BEF7205B1D7AEBC000DC01AB /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
-		BEF7205C1D7AEBC000DC01AB /* NSAttributedString+WMAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+WMAdditon.h"; sourceTree = "<group>"; };
-		BEF7205D1D7AEBC000DC01AB /* NSAttributedString+WMAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+WMAdditon.m"; sourceTree = "<group>"; };
-		BEF7205E1D7AEBC000DC01AB /* NSObject+WMRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WMRuntime.h"; sourceTree = "<group>"; };
-		BEF7205F1D7AEBC000DC01AB /* NSObject+WMRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WMRuntime.m"; sourceTree = "<group>"; };
-		BEF720601D7AEBC000DC01AB /* NSString+WMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WMBase64.h"; sourceTree = "<group>"; };
-		BEF720611D7AEBC000DC01AB /* NSString+WMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WMBase64.m"; sourceTree = "<group>"; };
-		BEF720621D7AEBC000DC01AB /* NSString+WMHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WMHash.h"; sourceTree = "<group>"; };
-		BEF720631D7AEBC000DC01AB /* NSString+WMHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WMHash.m"; sourceTree = "<group>"; };
-		BEF720641D7AEBC000DC01AB /* NSString+WMPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WMPath.h"; sourceTree = "<group>"; };
-		BEF720651D7AEBC000DC01AB /* NSString+WMPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WMPath.m"; sourceTree = "<group>"; };
-		BEF720661D7AEBC000DC01AB /* UIButton+WMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WMAddition.h"; sourceTree = "<group>"; };
-		BEF720671D7AEBC000DC01AB /* UIButton+WMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WMAddition.m"; sourceTree = "<group>"; };
-		BEF720681D7AEBC000DC01AB /* UIColor+WMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WMAddition.h"; sourceTree = "<group>"; };
-		BEF720691D7AEBC000DC01AB /* UIColor+WMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WMAddition.m"; sourceTree = "<group>"; };
-		BEF7206A1D7AEBC000DC01AB /* UILabel+WMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WMAddition.h"; sourceTree = "<group>"; };
-		BEF7206B1D7AEBC000DC01AB /* UILabel+WMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WMAddition.m"; sourceTree = "<group>"; };
-		BEF7206C1D7AEBC000DC01AB /* UIScreen+WMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+WMAddition.h"; sourceTree = "<group>"; };
-		BEF7206D1D7AEBC000DC01AB /* UIScreen+WMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+WMAddition.m"; sourceTree = "<group>"; };
-		BEF7206E1D7AEBC000DC01AB /* UIView+WMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WMAddition.h"; sourceTree = "<group>"; };
-		BEF7206F1D7AEBC000DC01AB /* UIView+WMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WMAddition.m"; sourceTree = "<group>"; };
-		BEF720701D7AEBC000DC01AB /* UIViewController+WMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WMAddition.h"; sourceTree = "<group>"; };
-		BEF720711D7AEBC000DC01AB /* UIViewController+WMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WMAddition.m"; sourceTree = "<group>"; };
-		BEF720721D7AEBC000DC01AB /* WMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAdditions.h; sourceTree = "<group>"; };
-		BEF720741D7AEBC000DC01AB /* EVHumanRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EVHumanRefreshView.xib; sourceTree = "<group>"; };
-		BEF720751D7AEBC000DC01AB /* EVRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVRefreshControl.swift; sourceTree = "<group>"; };
-		BEF720761D7AEBC000DC01AB /* EVRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVRefreshView.swift; sourceTree = "<group>"; };
-		BEF720771D7AEBC000DC01AB /* EVRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EVRefreshView.xib; sourceTree = "<group>"; };
-		BEF720791D7AEBC000DC01AB /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
-		BEF7207A1D7AEBC000DC01AB /* WMLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMLabel.swift; sourceTree = "<group>"; };
-		BEF7207B1D7AEBC000DC01AB /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		BEF7207C1D7AEBC000DC01AB /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
-		BEF7207D1D7AEBC000DC01AB /* UIimage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIimage+Extension.swift"; sourceTree = "<group>"; };
-		BEF7207E1D7AEBC000DC01AB /* UIimageView+WebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIimageView+WebImage.swift"; sourceTree = "<group>"; };
-		BEF720811D7AEBC000DC01AB /* WMCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMCommon.swift; sourceTree = "<group>"; };
-		BEF720871D7AEBC000DC01AB /* WMMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMMainViewController.swift; sourceTree = "<group>"; };
-		BEF7208C1D7AEBC000DC01AB /* WMVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMVisitorView.swift; sourceTree = "<group>"; };
-		BEF720AE1D7AEBD800DC01AB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = class/AppDelegate.swift; sourceTree = "<group>"; };
-		BEF720B81D7AEC0E00DC01AB /* Spazieren-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spazieren-Bridge.h"; sourceTree = "<group>"; };
-		BEF720B91D7B17D800DC01AB /* WMOAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMOAuthViewController.swift; sourceTree = "<group>"; };
-		BEF720C11D7B1C5B00DC01AB /* WMNewFeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMNewFeatureView.swift; sourceTree = "<group>"; };
-		BEF720C21D7B1C5B00DC01AB /* WMNewFeatureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMNewFeatureView.xib; sourceTree = "<group>"; };
-		BEF720C61D7B27C700DC01AB /* WMRunTypeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMRunTypeButton.swift; sourceTree = "<group>"; };
-		BEF720C71D7B27C700DC01AB /* WMRunTypeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMRunTypeButton.xib; sourceTree = "<group>"; };
-		BEF720C81D7B27C700DC01AB /* WMRunTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMRunTypeView.swift; sourceTree = "<group>"; };
-		BEF720C91D7B27C700DC01AB /* WMRunTypeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMRunTypeView.xib; sourceTree = "<group>"; };
-		BEF720CE1D7B27DE00DC01AB /* WMRunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMRunViewController.swift; sourceTree = "<group>"; };
-		BEF720D01D7B312300DC01AB /* WMWelComeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMWelComeView.xib; sourceTree = "<group>"; };
-		BEF720D11D7B312300DC01AB /* WMWelComeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMWelComeView.swift; sourceTree = "<group>"; };
-		BEF720D51D7B324900DC01AB /* WMTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMTitleButton.swift; sourceTree = "<group>"; };
-		BEF720D71D7B325000DC01AB /* WBHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WBHomeViewController.swift; path = TitleButton/WBHomeViewController.swift; sourceTree = "<group>"; };
-		BEF720D91D7B32FA00DC01AB /* WMBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMBaseViewController.swift; sourceTree = "<group>"; };
-		BEF720DA1D7B32FA00DC01AB /* WMNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMNavigationController.swift; sourceTree = "<group>"; };
-		BEF720DB1D7B32FA00DC01AB /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
-		BEF720DF1D7B372800DC01AB /* WMStatusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMStatusViewModel.swift; sourceTree = "<group>"; };
-		BEF720E01D7B372800DC01AB /* WMStatusListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMStatusListViewModel.swift; sourceTree = "<group>"; };
-		BEF720E41D7B378700DC01AB /* WMStatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMStatusCell.swift; sourceTree = "<group>"; };
-		BEF720E51D7B378700DC01AB /* WMStatusNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMStatusNormalCell.xib; sourceTree = "<group>"; };
-		BEF720E61D7B378700DC01AB /* WMStatusPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMStatusPictureView.swift; sourceTree = "<group>"; };
-		BEF720E71D7B378700DC01AB /* WMStatusRetweetedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMStatusRetweetedCell.xib; sourceTree = "<group>"; };
-		BEF720E81D7B378700DC01AB /* WMStatusToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMStatusToolBar.swift; sourceTree = "<group>"; };
-		BEF720F41D7B39BB00DC01AB /* WMNetwork+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WMNetwork+extension.swift"; sourceTree = "<group>"; };
-		BEF720F51D7B39BB00DC01AB /* WMNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMNetworkManager.swift; sourceTree = "<group>"; };
-		BEF720F61D7B39BB00DC01AB /* WMUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMUserAccount.swift; sourceTree = "<group>"; };
-		F6DB9DA4BF265C3DD3593865 /* Pods_Spazieren.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spazieren.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1BD2541D7C2514006E549E /* Spazieren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spazieren.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1BD2571D7C2514006E549E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE1BD2591D7C2514006E549E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE1BD25C1D7C2514006E549E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE1BD25E1D7C2514006E549E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE1BD2611D7C2514006E549E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE1BD2631D7C2514006E549E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BEA2C07A1D7AE52300B8080C /* Frameworks */ = {
+		BE1BD2511D7C2514006E549E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07DCC3DBA787CAD77F508CD7 /* Pods_Spazieren.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		82BD52028A7B11F41C67FE9F /* Frameworks */ = {
+		BE1BD24B1D7C2513006E549E = {
 			isa = PBXGroup;
 			children = (
-				F6DB9DA4BF265C3DD3593865 /* Pods_Spazieren.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B50A76CB658C5CB07FBF338C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2ACA18DF66780FC1292068F2 /* Pods-Spazieren.debug.xcconfig */,
-				9E18C82E80D268B8A8ABAD62 /* Pods-Spazieren.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BE8F6CCF1D7BE724006A1F00 /* Message */ = {
-			isa = PBXGroup;
-			children = (
-				BE8F6CD01D7BE742006A1F00 /* WMMessageViewController.swift */,
-			);
-			path = Message;
-			sourceTree = "<group>";
-		};
-		BEA2C0741D7AE52300B8080C = {
-			isa = PBXGroup;
-			children = (
-				BEA2C07F1D7AE52300B8080C /* Spazieren */,
-				BEA2C07E1D7AE52300B8080C /* Products */,
-				B50A76CB658C5CB07FBF338C /* Pods */,
-				82BD52028A7B11F41C67FE9F /* Frameworks */,
+				BE1BD2561D7C2514006E549E /* Spazieren */,
+				BE1BD2551D7C2514006E549E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BEA2C07E1D7AE52300B8080C /* Products */ = {
+		BE1BD2551D7C2514006E549E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEA2C07D1D7AE52300B8080C /* Spazieren.app */,
+				BE1BD2541D7C2514006E549E /* Spazieren.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEA2C07F1D7AE52300B8080C /* Spazieren */ = {
+		BE1BD2561D7C2514006E549E /* Spazieren */ = {
 			isa = PBXGroup;
 			children = (
-				BEF720501D7AEBC000DC01AB /* class */,
-				BEF720AE1D7AEBD800DC01AB /* AppDelegate.swift */,
-				BEA2C0871D7AE52300B8080C /* Assets.xcassets */,
-				BEA2C08C1D7AE52300B8080C /* Info.plist */,
-				BEF720B81D7AEC0E00DC01AB /* Spazieren-Bridge.h */,
+				BE1BD2571D7C2514006E549E /* AppDelegate.swift */,
+				BE1BD2591D7C2514006E549E /* ViewController.swift */,
+				BE1BD25B1D7C2514006E549E /* Main.storyboard */,
+				BE1BD25E1D7C2514006E549E /* Assets.xcassets */,
+				BE1BD2601D7C2514006E549E /* LaunchScreen.storyboard */,
+				BE1BD2631D7C2514006E549E /* Info.plist */,
 			);
 			path = Spazieren;
-			sourceTree = "<group>";
-		};
-		BEF720501D7AEBC000DC01AB /* class */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720511D7AEBC000DC01AB /* Model */,
-				BEF720581D7AEBC000DC01AB /* Tools */,
-				BEF720821D7AEBC000DC01AB /* View */,
-				BEF720911D7AEBC000DC01AB /* ViewModel */,
-			);
-			path = class;
-			sourceTree = "<group>";
-		};
-		BEF720511D7AEBC000DC01AB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		BEF720581D7AEBC000DC01AB /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720591D7AEBC000DC01AB /* Additions */,
-				BEF720731D7AEBC000DC01AB /* EVRefreshControl */,
-				BEF720781D7AEBC000DC01AB /* Extensions */,
-				BEF7207F1D7AEBC000DC01AB /* Network */,
-				BEF720811D7AEBC000DC01AB /* WMCommon.swift */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		BEF720591D7AEBC000DC01AB /* Additions */ = {
-			isa = PBXGroup;
-			children = (
-				BEF7205A1D7AEBC000DC01AB /* NSArray+Log.h */,
-				BEF7205B1D7AEBC000DC01AB /* NSArray+Log.m */,
-				BEF7205C1D7AEBC000DC01AB /* NSAttributedString+WMAdditon.h */,
-				BEF7205D1D7AEBC000DC01AB /* NSAttributedString+WMAdditon.m */,
-				BEF7205E1D7AEBC000DC01AB /* NSObject+WMRuntime.h */,
-				BEF7205F1D7AEBC000DC01AB /* NSObject+WMRuntime.m */,
-				BEF720601D7AEBC000DC01AB /* NSString+WMBase64.h */,
-				BEF720611D7AEBC000DC01AB /* NSString+WMBase64.m */,
-				BEF720621D7AEBC000DC01AB /* NSString+WMHash.h */,
-				BEF720631D7AEBC000DC01AB /* NSString+WMHash.m */,
-				BEF720641D7AEBC000DC01AB /* NSString+WMPath.h */,
-				BEF720651D7AEBC000DC01AB /* NSString+WMPath.m */,
-				BEF720661D7AEBC000DC01AB /* UIButton+WMAddition.h */,
-				BEF720671D7AEBC000DC01AB /* UIButton+WMAddition.m */,
-				BEF720681D7AEBC000DC01AB /* UIColor+WMAddition.h */,
-				BEF720691D7AEBC000DC01AB /* UIColor+WMAddition.m */,
-				BEF7206A1D7AEBC000DC01AB /* UILabel+WMAddition.h */,
-				BEF7206B1D7AEBC000DC01AB /* UILabel+WMAddition.m */,
-				BEF7206C1D7AEBC000DC01AB /* UIScreen+WMAddition.h */,
-				BEF7206D1D7AEBC000DC01AB /* UIScreen+WMAddition.m */,
-				BEF7206E1D7AEBC000DC01AB /* UIView+WMAddition.h */,
-				BEF7206F1D7AEBC000DC01AB /* UIView+WMAddition.m */,
-				BEF720701D7AEBC000DC01AB /* UIViewController+WMAddition.h */,
-				BEF720711D7AEBC000DC01AB /* UIViewController+WMAddition.m */,
-				BEF720721D7AEBC000DC01AB /* WMAdditions.h */,
-			);
-			path = Additions;
-			sourceTree = "<group>";
-		};
-		BEF720731D7AEBC000DC01AB /* EVRefreshControl */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720741D7AEBC000DC01AB /* EVHumanRefreshView.xib */,
-				BEF720751D7AEBC000DC01AB /* EVRefreshControl.swift */,
-				BEF720761D7AEBC000DC01AB /* EVRefreshView.swift */,
-				BEF720771D7AEBC000DC01AB /* EVRefreshView.xib */,
-			);
-			path = EVRefreshControl;
-			sourceTree = "<group>";
-		};
-		BEF720781D7AEBC000DC01AB /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720791D7AEBC000DC01AB /* Bundle+Extension.swift */,
-				BEF7207A1D7AEBC000DC01AB /* WMLabel.swift */,
-				BEF7207B1D7AEBC000DC01AB /* String+Extension.swift */,
-				BEF7207C1D7AEBC000DC01AB /* UIBarButtonItem+Extension.swift */,
-				BEF7207D1D7AEBC000DC01AB /* UIimage+Extension.swift */,
-				BEF7207E1D7AEBC000DC01AB /* UIimageView+WebImage.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		BEF7207F1D7AEBC000DC01AB /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720801D7AEBC000DC01AB /* Model */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		BEF720801D7AEBC000DC01AB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720F41D7B39BB00DC01AB /* WMNetwork+extension.swift */,
-				BEF720F51D7B39BB00DC01AB /* WMNetworkManager.swift */,
-				BEF720F61D7B39BB00DC01AB /* WMUserAccount.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		BEF720821D7AEBC000DC01AB /* View */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720851D7AEBC000DC01AB /* Main */,
-				BEF720831D7AEBC000DC01AB /* Discover */,
-				BEF720841D7AEBC000DC01AB /* Home */,
-				BEF7208D1D7AEBC000DC01AB /* Profile */,
-				BEF7208E1D7AEBC000DC01AB /* Run */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		BEF720831D7AEBC000DC01AB /* Discover */ = {
-			isa = PBXGroup;
-			children = (
-				BE8F6CCD1D7BE698006A1F00 /* WMDiscoverViewController.swift */,
-			);
-			path = Discover;
-			sourceTree = "<group>";
-		};
-		BEF720841D7AEBC000DC01AB /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720E31D7B378700DC01AB /* StatausCell */,
-				BEF720D41D7B324900DC01AB /* TitleButton */,
-				BEF720D71D7B325000DC01AB /* WBHomeViewController.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		BEF720851D7AEBC000DC01AB /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				BE8F6CCF1D7BE724006A1F00 /* Message */,
-				BEF720861D7AEBC000DC01AB /* MainViewController */,
-				BEF720881D7AEBC000DC01AB /* NewFeature */,
-				BEF720891D7AEBC000DC01AB /* OAuth */,
-				BEF7208A1D7AEBC000DC01AB /* Test */,
-				BEF7208B1D7AEBC000DC01AB /* VisitorView */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		BEF720861D7AEBC000DC01AB /* MainViewController */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720DB1D7B32FA00DC01AB /* main.json */,
-				BEF720D91D7B32FA00DC01AB /* WMBaseViewController.swift */,
-				BEF720DA1D7B32FA00DC01AB /* WMNavigationController.swift */,
-				BEF720871D7AEBC000DC01AB /* WMMainViewController.swift */,
-			);
-			path = MainViewController;
-			sourceTree = "<group>";
-		};
-		BEF720881D7AEBC000DC01AB /* NewFeature */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720D11D7B312300DC01AB /* WMWelComeView.swift */,
-				BEF720D01D7B312300DC01AB /* WMWelComeView.xib */,
-				BEF720C11D7B1C5B00DC01AB /* WMNewFeatureView.swift */,
-				BEF720C21D7B1C5B00DC01AB /* WMNewFeatureView.xib */,
-			);
-			path = NewFeature;
-			sourceTree = "<group>";
-		};
-		BEF720891D7AEBC000DC01AB /* OAuth */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720B91D7B17D800DC01AB /* WMOAuthViewController.swift */,
-			);
-			path = OAuth;
-			sourceTree = "<group>";
-		};
-		BEF7208A1D7AEBC000DC01AB /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				BEEFBBC71D7B3B1100BBF8FD /* WBDemoViewController.swift */,
-			);
-			path = Test;
-			sourceTree = "<group>";
-		};
-		BEF7208B1D7AEBC000DC01AB /* VisitorView */ = {
-			isa = PBXGroup;
-			children = (
-				BEF7208C1D7AEBC000DC01AB /* WMVisitorView.swift */,
-				BE8F6CC91D7B5850006A1F00 /* WMVisitorView.xib */,
-			);
-			path = VisitorView;
-			sourceTree = "<group>";
-		};
-		BEF7208D1D7AEBC000DC01AB /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				BE8F6CCB1D7BE67B006A1F00 /* WMProfileViewController.swift */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
-		BEF7208E1D7AEBC000DC01AB /* Run */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720C51D7B27C700DC01AB /* RunType */,
-			);
-			path = Run;
-			sourceTree = "<group>";
-		};
-		BEF720911D7AEBC000DC01AB /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720DF1D7B372800DC01AB /* WMStatusViewModel.swift */,
-				BEF720E01D7B372800DC01AB /* WMStatusListViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		BEF720C51D7B27C700DC01AB /* RunType */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720CE1D7B27DE00DC01AB /* WMRunViewController.swift */,
-				BEF720C61D7B27C700DC01AB /* WMRunTypeButton.swift */,
-				BEF720C71D7B27C700DC01AB /* WMRunTypeButton.xib */,
-				BEF720C81D7B27C700DC01AB /* WMRunTypeView.swift */,
-				BEF720C91D7B27C700DC01AB /* WMRunTypeView.xib */,
-			);
-			path = RunType;
-			sourceTree = "<group>";
-		};
-		BEF720D41D7B324900DC01AB /* TitleButton */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720D51D7B324900DC01AB /* WMTitleButton.swift */,
-			);
-			path = TitleButton;
-			sourceTree = "<group>";
-		};
-		BEF720E31D7B378700DC01AB /* StatausCell */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720E41D7B378700DC01AB /* WMStatusCell.swift */,
-				BEF720E51D7B378700DC01AB /* WMStatusNormalCell.xib */,
-				BEF720E61D7B378700DC01AB /* WMStatusPictureView.swift */,
-				BEF720E71D7B378700DC01AB /* WMStatusRetweetedCell.xib */,
-				BEF720E81D7B378700DC01AB /* WMStatusToolBar.swift */,
-			);
-			path = StatausCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BEA2C07C1D7AE52300B8080C /* Spazieren */ = {
+		BE1BD2531D7C2514006E549E /* Spazieren */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEA2C08F1D7AE52300B8080C /* Build configuration list for PBXNativeTarget "Spazieren" */;
+			buildConfigurationList = BE1BD2661D7C2514006E549E /* Build configuration list for PBXNativeTarget "Spazieren" */;
 			buildPhases = (
-				79A9430EC5321BB63FD6DA6B /* [CP] Check Pods Manifest.lock */,
-				BEA2C0791D7AE52300B8080C /* Sources */,
-				BEA2C07A1D7AE52300B8080C /* Frameworks */,
-				BEA2C07B1D7AE52300B8080C /* Resources */,
-				84C0DA5FCFAD49075A2DEFE6 /* [CP] Embed Pods Frameworks */,
-				889FAD8FAFE9A76FAEE73D0A /* [CP] Copy Pods Resources */,
+				BE1BD2501D7C2514006E549E /* Sources */,
+				BE1BD2511D7C2514006E549E /* Frameworks */,
+				BE1BD2521D7C2514006E549E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -484,26 +81,26 @@
 			);
 			name = Spazieren;
 			productName = Spazieren;
-			productReference = BEA2C07D1D7AE52300B8080C /* Spazieren.app */;
+			productReference = BE1BD2541D7C2514006E549E /* Spazieren.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BEA2C0751D7AE52300B8080C /* Project object */ = {
+		BE1BD24C1D7C2513006E549E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = weimakejikonggu;
+				ORGANIZATIONNAME = Spazieren;
 				TargetAttributes = {
-					BEA2C07C1D7AE52300B8080C = {
+					BE1BD2531D7C2514006E549E = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = BEA2C0781D7AE52300B8080C /* Build configuration list for PBXProject "Spazieren" */;
+			buildConfigurationList = BE1BD24F1D7C2513006E549E /* Build configuration list for PBXProject "Spazieren" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -511,143 +108,62 @@
 				en,
 				Base,
 			);
-			mainGroup = BEA2C0741D7AE52300B8080C;
-			productRefGroup = BEA2C07E1D7AE52300B8080C /* Products */;
+			mainGroup = BE1BD24B1D7C2513006E549E;
+			productRefGroup = BE1BD2551D7C2514006E549E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEA2C07C1D7AE52300B8080C /* Spazieren */,
+				BE1BD2531D7C2514006E549E /* Spazieren */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BEA2C07B1D7AE52300B8080C /* Resources */ = {
+		BE1BD2521D7C2514006E549E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF720A01D7AEBC000DC01AB /* EVHumanRefreshView.xib in Resources */,
-				BEF720D21D7B312300DC01AB /* WMWelComeView.xib in Resources */,
-				BEF720EC1D7B378700DC01AB /* WMStatusRetweetedCell.xib in Resources */,
-				BEA2C0881D7AE52300B8080C /* Assets.xcassets in Resources */,
-				BEF720A31D7AEBC000DC01AB /* EVRefreshView.xib in Resources */,
-				BEF720EA1D7B378700DC01AB /* WMStatusNormalCell.xib in Resources */,
-				BEF720C41D7B1C5B00DC01AB /* WMNewFeatureView.xib in Resources */,
-				BEF720CD1D7B27C700DC01AB /* WMRunTypeView.xib in Resources */,
-				BE8F6CCA1D7B5850006A1F00 /* WMVisitorView.xib in Resources */,
-				BEF720DE1D7B32FA00DC01AB /* main.json in Resources */,
-				BEF720CB1D7B27C700DC01AB /* WMRunTypeButton.xib in Resources */,
+				BE1BD2621D7C2514006E549E /* LaunchScreen.storyboard in Resources */,
+				BE1BD25F1D7C2514006E549E /* Assets.xcassets in Resources */,
+				BE1BD25D1D7C2514006E549E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		79A9430EC5321BB63FD6DA6B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		84C0DA5FCFAD49075A2DEFE6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spazieren/Pods-Spazieren-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		889FAD8FAFE9A76FAEE73D0A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spazieren/Pods-Spazieren-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		BEA2C0791D7AE52300B8080C /* Sources */ = {
+		BE1BD2501D7C2514006E549E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF7209F1D7AEBC000DC01AB /* UIViewController+WMAddition.m in Sources */,
-				BEF720E91D7B378700DC01AB /* WMStatusCell.swift in Sources */,
-				BEF720C31D7B1C5B00DC01AB /* WMNewFeatureView.swift in Sources */,
-				BEF720ED1D7B378700DC01AB /* WMStatusToolBar.swift in Sources */,
-				BEF720A41D7AEBC000DC01AB /* Bundle+Extension.swift in Sources */,
-				BEF720AC1D7AEBC000DC01AB /* WMVisitorView.swift in Sources */,
-				BEF720D31D7B312300DC01AB /* WMWelComeView.swift in Sources */,
-				BEF720991D7AEBC000DC01AB /* NSString+WMPath.m in Sources */,
-				BEF720CF1D7B27DE00DC01AB /* WMRunViewController.swift in Sources */,
-				BEF720F81D7B39BB00DC01AB /* WMNetworkManager.swift in Sources */,
-				BEF720D61D7B324900DC01AB /* WMTitleButton.swift in Sources */,
-				BE8F6CCC1D7BE67B006A1F00 /* WMProfileViewController.swift in Sources */,
-				BEF720A61D7AEBC000DC01AB /* String+Extension.swift in Sources */,
-				BEF720981D7AEBC000DC01AB /* NSString+WMHash.m in Sources */,
-				BEF720D81D7B325000DC01AB /* WBHomeViewController.swift in Sources */,
-				BEF720E11D7B372800DC01AB /* WMStatusViewModel.swift in Sources */,
-				BEF720AB1D7AEBC000DC01AB /* WMMainViewController.swift in Sources */,
-				BEF720CC1D7B27C700DC01AB /* WMRunTypeView.swift in Sources */,
-				BEF720AF1D7AEBD800DC01AB /* AppDelegate.swift in Sources */,
-				BEF720A91D7AEBC000DC01AB /* UIimageView+WebImage.swift in Sources */,
-				BEF720A21D7AEBC000DC01AB /* EVRefreshView.swift in Sources */,
-				BEF720E21D7B372800DC01AB /* WMStatusListViewModel.swift in Sources */,
-				BEF720A51D7AEBC000DC01AB /* WMLabel.swift in Sources */,
-				BEF720BA1D7B17D800DC01AB /* WMOAuthViewController.swift in Sources */,
-				BEF720971D7AEBC000DC01AB /* NSString+WMBase64.m in Sources */,
-				BEEFBBC81D7B3B1100BBF8FD /* WBDemoViewController.swift in Sources */,
-				BEF720941D7AEBC000DC01AB /* NSArray+Log.m in Sources */,
-				BE8F6CD11D7BE742006A1F00 /* WMMessageViewController.swift in Sources */,
-				BEF720F71D7B39BB00DC01AB /* WMNetwork+extension.swift in Sources */,
-				BEF720961D7AEBC000DC01AB /* NSObject+WMRuntime.m in Sources */,
-				BEF7209D1D7AEBC000DC01AB /* UIScreen+WMAddition.m in Sources */,
-				BEF720DD1D7B32FA00DC01AB /* WMNavigationController.swift in Sources */,
-				BEF7209C1D7AEBC000DC01AB /* UILabel+WMAddition.m in Sources */,
-				BEF720A71D7AEBC000DC01AB /* UIBarButtonItem+Extension.swift in Sources */,
-				BEF7209E1D7AEBC000DC01AB /* UIView+WMAddition.m in Sources */,
-				BEF720A81D7AEBC000DC01AB /* UIimage+Extension.swift in Sources */,
-				BEF720DC1D7B32FA00DC01AB /* WMBaseViewController.swift in Sources */,
-				BEF720AA1D7AEBC000DC01AB /* WMCommon.swift in Sources */,
-				BEF720CA1D7B27C700DC01AB /* WMRunTypeButton.swift in Sources */,
-				BEF720A11D7AEBC000DC01AB /* EVRefreshControl.swift in Sources */,
-				BEF720951D7AEBC000DC01AB /* NSAttributedString+WMAdditon.m in Sources */,
-				BEF720EB1D7B378700DC01AB /* WMStatusPictureView.swift in Sources */,
-				BEF7209A1D7AEBC000DC01AB /* UIButton+WMAddition.m in Sources */,
-				BE8F6CCE1D7BE698006A1F00 /* WMDiscoverViewController.swift in Sources */,
-				BEF720F91D7B39BB00DC01AB /* WMUserAccount.swift in Sources */,
-				BEF7209B1D7AEBC000DC01AB /* UIColor+WMAddition.m in Sources */,
+				BE1BD25A1D7C2514006E549E /* ViewController.swift in Sources */,
+				BE1BD2581D7C2514006E549E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		BE1BD25B1D7C2514006E549E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1BD25C1D7C2514006E549E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE1BD2601D7C2514006E549E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1BD2611D7C2514006E549E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		BEA2C08D1D7AE52300B8080C /* Debug */ = {
+		BE1BD2641D7C2514006E549E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -690,13 +206,11 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_INCLUDE_PATHS = Users/lucas7042/Spazieren/Spazieren/class;
-				SWIFT_OBJC_BRIDGING_HEADER = "Spazieren-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		BEA2C08E1D7AE52300B8080C /* Release */ = {
+		BE1BD2651D7C2514006E549E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -731,49 +245,31 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_INCLUDE_PATHS = Users/lucas7042/Spazieren/Spazieren/class;
-				SWIFT_OBJC_BRIDGING_HEADER = "Spazieren-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		BEA2C0901D7AE52300B8080C /* Debug */ = {
+		BE1BD2671D7C2514006E549E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ACA18DF66780FC1292068F2 /* Pods-Spazieren.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spazieren/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Spazieren/class/openSDK1.7.2",
-					"$(PROJECT_DIR)/Spazieren/openSDK1.7.2",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.weimakejikongu.weima.Spazieren;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spazieren.Spazieren.Spazieren;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		BEA2C0911D7AE52300B8080C /* Release */ = {
+		BE1BD2681D7C2514006E549E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E18C82E80D268B8A8ABAD62 /* Pods-Spazieren.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spazieren/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Spazieren/class/openSDK1.7.2",
-					"$(PROJECT_DIR)/Spazieren/openSDK1.7.2",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.weimakejikongu.weima.Spazieren;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spazieren.Spazieren.Spazieren;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -781,25 +277,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEA2C0781D7AE52300B8080C /* Build configuration list for PBXProject "Spazieren" */ = {
+		BE1BD24F1D7C2513006E549E /* Build configuration list for PBXProject "Spazieren" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEA2C08D1D7AE52300B8080C /* Debug */,
-				BEA2C08E1D7AE52300B8080C /* Release */,
+				BE1BD2641D7C2514006E549E /* Debug */,
+				BE1BD2651D7C2514006E549E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEA2C08F1D7AE52300B8080C /* Build configuration list for PBXNativeTarget "Spazieren" */ = {
+		BE1BD2661D7C2514006E549E /* Build configuration list for PBXNativeTarget "Spazieren" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEA2C0901D7AE52300B8080C /* Debug */,
-				BEA2C0911D7AE52300B8080C /* Release */,
+				BE1BD2671D7C2514006E549E /* Debug */,
+				BE1BD2681D7C2514006E549E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BEA2C0751D7AE52300B8080C /* Project object */;
+	rootObject = BE1BD24C1D7C2513006E549E /* Project object */;
 }
