@@ -30,5 +30,3 @@ let WMStatusPictureViewWidth = UIScreen.wm_screenWidth() - 2 * WMStatusPictureVi
     //计算每个默认Item 的 宽度
 let WMStatusPicturesItemWidth =  (WMStatusPictureViewWidth - 2 * WMStatusPictureViewInnerMargin)/3
    
-/////////
-///////////

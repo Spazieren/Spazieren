@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		07DCC3DBA787CAD77F508CD7 /* Pods_Spazieren.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DB9DA4BF265C3DD3593865 /* Pods_Spazieren.framework */; };
-		BEA2C0831D7AE52300B8080C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA2C0821D7AE52300B8080C /* ViewController.swift */; };
-		BEA2C0861D7AE52300B8080C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA2C0841D7AE52300B8080C /* Main.storyboard */; };
+		BE8F6CCA1D7B5850006A1F00 /* WMVisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8F6CC91D7B5850006A1F00 /* WMVisitorView.xib */; };
+		BE8F6CCC1D7BE67B006A1F00 /* WMProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F6CCB1D7BE67B006A1F00 /* WMProfileViewController.swift */; };
+		BE8F6CCE1D7BE698006A1F00 /* WMDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F6CCD1D7BE698006A1F00 /* WMDiscoverViewController.swift */; };
+		BE8F6CD11D7BE742006A1F00 /* WMMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F6CD01D7BE742006A1F00 /* WMMessageViewController.swift */; };
 		BEA2C0881D7AE52300B8080C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA2C0871D7AE52300B8080C /* Assets.xcassets */; };
-		BEA2C08B1D7AE52300B8080C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA2C0891D7AE52300B8080C /* LaunchScreen.storyboard */; };
+		BEEFBBC81D7B3B1100BBF8FD /* WBDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFBBC71D7B3B1100BBF8FD /* WBDemoViewController.swift */; };
 		BEF720941D7AEBC000DC01AB /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7205B1D7AEBC000DC01AB /* NSArray+Log.m */; };
 		BEF720951D7AEBC000DC01AB /* NSAttributedString+WMAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7205D1D7AEBC000DC01AB /* NSAttributedString+WMAdditon.m */; };
 		BEF720961D7AEBC000DC01AB /* NSObject+WMRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7205F1D7AEBC000DC01AB /* NSObject+WMRuntime.m */; };
@@ -36,20 +38,46 @@
 		BEF720A91D7AEBC000DC01AB /* UIimageView+WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7207E1D7AEBC000DC01AB /* UIimageView+WebImage.swift */; };
 		BEF720AA1D7AEBC000DC01AB /* WMCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720811D7AEBC000DC01AB /* WMCommon.swift */; };
 		BEF720AB1D7AEBC000DC01AB /* WMMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720871D7AEBC000DC01AB /* WMMainViewController.swift */; };
-		BEF720AC1D7AEBC000DC01AB /* WMVistorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7208C1D7AEBC000DC01AB /* WMVistorViewController.swift */; };
-		BEF720AD1D7AEBC000DC01AB /* WMRunTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720901D7AEBC000DC01AB /* WMRunTypeView.swift */; };
+		BEF720AC1D7AEBC000DC01AB /* WMVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7208C1D7AEBC000DC01AB /* WMVisitorView.swift */; };
 		BEF720AF1D7AEBD800DC01AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720AE1D7AEBD800DC01AB /* AppDelegate.swift */; };
+		BEF720BA1D7B17D800DC01AB /* WMOAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720B91D7B17D800DC01AB /* WMOAuthViewController.swift */; };
+		BEF720C31D7B1C5B00DC01AB /* WMNewFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720C11D7B1C5B00DC01AB /* WMNewFeatureView.swift */; };
+		BEF720C41D7B1C5B00DC01AB /* WMNewFeatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720C21D7B1C5B00DC01AB /* WMNewFeatureView.xib */; };
+		BEF720CA1D7B27C700DC01AB /* WMRunTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720C61D7B27C700DC01AB /* WMRunTypeButton.swift */; };
+		BEF720CB1D7B27C700DC01AB /* WMRunTypeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720C71D7B27C700DC01AB /* WMRunTypeButton.xib */; };
+		BEF720CC1D7B27C700DC01AB /* WMRunTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720C81D7B27C700DC01AB /* WMRunTypeView.swift */; };
+		BEF720CD1D7B27C700DC01AB /* WMRunTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720C91D7B27C700DC01AB /* WMRunTypeView.xib */; };
+		BEF720CF1D7B27DE00DC01AB /* WMRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720CE1D7B27DE00DC01AB /* WMRunViewController.swift */; };
+		BEF720D21D7B312300DC01AB /* WMWelComeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720D01D7B312300DC01AB /* WMWelComeView.xib */; };
+		BEF720D31D7B312300DC01AB /* WMWelComeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720D11D7B312300DC01AB /* WMWelComeView.swift */; };
+		BEF720D61D7B324900DC01AB /* WMTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720D51D7B324900DC01AB /* WMTitleButton.swift */; };
+		BEF720D81D7B325000DC01AB /* WBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720D71D7B325000DC01AB /* WBHomeViewController.swift */; };
+		BEF720DC1D7B32FA00DC01AB /* WMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720D91D7B32FA00DC01AB /* WMBaseViewController.swift */; };
+		BEF720DD1D7B32FA00DC01AB /* WMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720DA1D7B32FA00DC01AB /* WMNavigationController.swift */; };
+		BEF720DE1D7B32FA00DC01AB /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = BEF720DB1D7B32FA00DC01AB /* main.json */; };
+		BEF720E11D7B372800DC01AB /* WMStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720DF1D7B372800DC01AB /* WMStatusViewModel.swift */; };
+		BEF720E21D7B372800DC01AB /* WMStatusListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720E01D7B372800DC01AB /* WMStatusListViewModel.swift */; };
+		BEF720E91D7B378700DC01AB /* WMStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720E41D7B378700DC01AB /* WMStatusCell.swift */; };
+		BEF720EA1D7B378700DC01AB /* WMStatusNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720E51D7B378700DC01AB /* WMStatusNormalCell.xib */; };
+		BEF720EB1D7B378700DC01AB /* WMStatusPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720E61D7B378700DC01AB /* WMStatusPictureView.swift */; };
+		BEF720EC1D7B378700DC01AB /* WMStatusRetweetedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF720E71D7B378700DC01AB /* WMStatusRetweetedCell.xib */; };
+		BEF720ED1D7B378700DC01AB /* WMStatusToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720E81D7B378700DC01AB /* WMStatusToolBar.swift */; };
+		BEF720F71D7B39BB00DC01AB /* WMNetwork+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720F41D7B39BB00DC01AB /* WMNetwork+extension.swift */; };
+		BEF720F81D7B39BB00DC01AB /* WMNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720F51D7B39BB00DC01AB /* WMNetworkManager.swift */; };
+		BEF720F91D7B39BB00DC01AB /* WMUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF720F61D7B39BB00DC01AB /* WMUserAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2ACA18DF66780FC1292068F2 /* Pods-Spazieren.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spazieren.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spazieren/Pods-Spazieren.debug.xcconfig"; sourceTree = "<group>"; };
 		9E18C82E80D268B8A8ABAD62 /* Pods-Spazieren.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spazieren.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spazieren/Pods-Spazieren.release.xcconfig"; sourceTree = "<group>"; };
+		BE8F6CC91D7B5850006A1F00 /* WMVisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMVisitorView.xib; sourceTree = "<group>"; };
+		BE8F6CCB1D7BE67B006A1F00 /* WMProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMProfileViewController.swift; sourceTree = "<group>"; };
+		BE8F6CCD1D7BE698006A1F00 /* WMDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMDiscoverViewController.swift; sourceTree = "<group>"; };
+		BE8F6CD01D7BE742006A1F00 /* WMMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMMessageViewController.swift; sourceTree = "<group>"; };
 		BEA2C07D1D7AE52300B8080C /* Spazieren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spazieren.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEA2C0821D7AE52300B8080C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BEA2C0851D7AE52300B8080C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEA2C0871D7AE52300B8080C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BEA2C08A1D7AE52300B8080C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEA2C08C1D7AE52300B8080C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEFBBC71D7B3B1100BBF8FD /* WBDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDemoViewController.swift; sourceTree = "<group>"; };
 		BEF7205A1D7AEBC000DC01AB /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
 		BEF7205B1D7AEBC000DC01AB /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		BEF7205C1D7AEBC000DC01AB /* NSAttributedString+WMAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+WMAdditon.h"; sourceTree = "<group>"; };
@@ -87,10 +115,34 @@
 		BEF7207E1D7AEBC000DC01AB /* UIimageView+WebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIimageView+WebImage.swift"; sourceTree = "<group>"; };
 		BEF720811D7AEBC000DC01AB /* WMCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMCommon.swift; sourceTree = "<group>"; };
 		BEF720871D7AEBC000DC01AB /* WMMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMMainViewController.swift; sourceTree = "<group>"; };
-		BEF7208C1D7AEBC000DC01AB /* WMVistorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMVistorViewController.swift; sourceTree = "<group>"; };
-		BEF720901D7AEBC000DC01AB /* WMRunTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMRunTypeView.swift; sourceTree = "<group>"; };
+		BEF7208C1D7AEBC000DC01AB /* WMVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMVisitorView.swift; sourceTree = "<group>"; };
 		BEF720AE1D7AEBD800DC01AB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = class/AppDelegate.swift; sourceTree = "<group>"; };
 		BEF720B81D7AEC0E00DC01AB /* Spazieren-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spazieren-Bridge.h"; sourceTree = "<group>"; };
+		BEF720B91D7B17D800DC01AB /* WMOAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMOAuthViewController.swift; sourceTree = "<group>"; };
+		BEF720C11D7B1C5B00DC01AB /* WMNewFeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMNewFeatureView.swift; sourceTree = "<group>"; };
+		BEF720C21D7B1C5B00DC01AB /* WMNewFeatureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMNewFeatureView.xib; sourceTree = "<group>"; };
+		BEF720C61D7B27C700DC01AB /* WMRunTypeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMRunTypeButton.swift; sourceTree = "<group>"; };
+		BEF720C71D7B27C700DC01AB /* WMRunTypeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMRunTypeButton.xib; sourceTree = "<group>"; };
+		BEF720C81D7B27C700DC01AB /* WMRunTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMRunTypeView.swift; sourceTree = "<group>"; };
+		BEF720C91D7B27C700DC01AB /* WMRunTypeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMRunTypeView.xib; sourceTree = "<group>"; };
+		BEF720CE1D7B27DE00DC01AB /* WMRunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMRunViewController.swift; sourceTree = "<group>"; };
+		BEF720D01D7B312300DC01AB /* WMWelComeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMWelComeView.xib; sourceTree = "<group>"; };
+		BEF720D11D7B312300DC01AB /* WMWelComeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMWelComeView.swift; sourceTree = "<group>"; };
+		BEF720D51D7B324900DC01AB /* WMTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMTitleButton.swift; sourceTree = "<group>"; };
+		BEF720D71D7B325000DC01AB /* WBHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WBHomeViewController.swift; path = TitleButton/WBHomeViewController.swift; sourceTree = "<group>"; };
+		BEF720D91D7B32FA00DC01AB /* WMBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMBaseViewController.swift; sourceTree = "<group>"; };
+		BEF720DA1D7B32FA00DC01AB /* WMNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMNavigationController.swift; sourceTree = "<group>"; };
+		BEF720DB1D7B32FA00DC01AB /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
+		BEF720DF1D7B372800DC01AB /* WMStatusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMStatusViewModel.swift; sourceTree = "<group>"; };
+		BEF720E01D7B372800DC01AB /* WMStatusListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMStatusListViewModel.swift; sourceTree = "<group>"; };
+		BEF720E41D7B378700DC01AB /* WMStatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMStatusCell.swift; sourceTree = "<group>"; };
+		BEF720E51D7B378700DC01AB /* WMStatusNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMStatusNormalCell.xib; sourceTree = "<group>"; };
+		BEF720E61D7B378700DC01AB /* WMStatusPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMStatusPictureView.swift; sourceTree = "<group>"; };
+		BEF720E71D7B378700DC01AB /* WMStatusRetweetedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMStatusRetweetedCell.xib; sourceTree = "<group>"; };
+		BEF720E81D7B378700DC01AB /* WMStatusToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMStatusToolBar.swift; sourceTree = "<group>"; };
+		BEF720F41D7B39BB00DC01AB /* WMNetwork+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WMNetwork+extension.swift"; sourceTree = "<group>"; };
+		BEF720F51D7B39BB00DC01AB /* WMNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMNetworkManager.swift; sourceTree = "<group>"; };
+		BEF720F61D7B39BB00DC01AB /* WMUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMUserAccount.swift; sourceTree = "<group>"; };
 		F6DB9DA4BF265C3DD3593865 /* Pods_Spazieren.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spazieren.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,6 +175,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BE8F6CCF1D7BE724006A1F00 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				BE8F6CD01D7BE742006A1F00 /* WMMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
 		BEA2C0741D7AE52300B8080C = {
 			isa = PBXGroup;
 			children = (
@@ -145,11 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				BEF720501D7AEBC000DC01AB /* class */,
-				BEA2C0821D7AE52300B8080C /* ViewController.swift */,
 				BEF720AE1D7AEBD800DC01AB /* AppDelegate.swift */,
-				BEA2C0841D7AE52300B8080C /* Main.storyboard */,
 				BEA2C0871D7AE52300B8080C /* Assets.xcassets */,
-				BEA2C0891D7AE52300B8080C /* LaunchScreen.storyboard */,
 				BEA2C08C1D7AE52300B8080C /* Info.plist */,
 				BEF720B81D7AEC0E00DC01AB /* Spazieren-Bridge.h */,
 			);
@@ -253,6 +310,9 @@
 		BEF720801D7AEBC000DC01AB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BEF720F41D7B39BB00DC01AB /* WMNetwork+extension.swift */,
+				BEF720F51D7B39BB00DC01AB /* WMNetworkManager.swift */,
+				BEF720F61D7B39BB00DC01AB /* WMUserAccount.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -260,9 +320,9 @@
 		BEF720821D7AEBC000DC01AB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BEF720851D7AEBC000DC01AB /* Main */,
 				BEF720831D7AEBC000DC01AB /* Discover */,
 				BEF720841D7AEBC000DC01AB /* Home */,
-				BEF720851D7AEBC000DC01AB /* Main */,
 				BEF7208D1D7AEBC000DC01AB /* Profile */,
 				BEF7208E1D7AEBC000DC01AB /* Run */,
 			);
@@ -272,6 +332,7 @@
 		BEF720831D7AEBC000DC01AB /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				BE8F6CCD1D7BE698006A1F00 /* WMDiscoverViewController.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -279,6 +340,9 @@
 		BEF720841D7AEBC000DC01AB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				BEF720E31D7B378700DC01AB /* StatausCell */,
+				BEF720D41D7B324900DC01AB /* TitleButton */,
+				BEF720D71D7B325000DC01AB /* WBHomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -286,6 +350,7 @@
 		BEF720851D7AEBC000DC01AB /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BE8F6CCF1D7BE724006A1F00 /* Message */,
 				BEF720861D7AEBC000DC01AB /* MainViewController */,
 				BEF720881D7AEBC000DC01AB /* NewFeature */,
 				BEF720891D7AEBC000DC01AB /* OAuth */,
@@ -298,6 +363,9 @@
 		BEF720861D7AEBC000DC01AB /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BEF720DB1D7B32FA00DC01AB /* main.json */,
+				BEF720D91D7B32FA00DC01AB /* WMBaseViewController.swift */,
+				BEF720DA1D7B32FA00DC01AB /* WMNavigationController.swift */,
 				BEF720871D7AEBC000DC01AB /* WMMainViewController.swift */,
 			);
 			path = MainViewController;
@@ -306,6 +374,10 @@
 		BEF720881D7AEBC000DC01AB /* NewFeature */ = {
 			isa = PBXGroup;
 			children = (
+				BEF720D11D7B312300DC01AB /* WMWelComeView.swift */,
+				BEF720D01D7B312300DC01AB /* WMWelComeView.xib */,
+				BEF720C11D7B1C5B00DC01AB /* WMNewFeatureView.swift */,
+				BEF720C21D7B1C5B00DC01AB /* WMNewFeatureView.xib */,
 			);
 			path = NewFeature;
 			sourceTree = "<group>";
@@ -313,6 +385,7 @@
 		BEF720891D7AEBC000DC01AB /* OAuth */ = {
 			isa = PBXGroup;
 			children = (
+				BEF720B91D7B17D800DC01AB /* WMOAuthViewController.swift */,
 			);
 			path = OAuth;
 			sourceTree = "<group>";
@@ -320,6 +393,7 @@
 		BEF7208A1D7AEBC000DC01AB /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				BEEFBBC71D7B3B1100BBF8FD /* WBDemoViewController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -327,7 +401,8 @@
 		BEF7208B1D7AEBC000DC01AB /* VisitorView */ = {
 			isa = PBXGroup;
 			children = (
-				BEF7208C1D7AEBC000DC01AB /* WMVistorViewController.swift */,
+				BEF7208C1D7AEBC000DC01AB /* WMVisitorView.swift */,
+				BE8F6CC91D7B5850006A1F00 /* WMVisitorView.xib */,
 			);
 			path = VisitorView;
 			sourceTree = "<group>";
@@ -335,6 +410,7 @@
 		BEF7208D1D7AEBC000DC01AB /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				BE8F6CCB1D7BE67B006A1F00 /* WMProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -342,24 +418,50 @@
 		BEF7208E1D7AEBC000DC01AB /* Run */ = {
 			isa = PBXGroup;
 			children = (
-				BEF7208F1D7AEBC000DC01AB /* RunType */,
+				BEF720C51D7B27C700DC01AB /* RunType */,
 			);
 			path = Run;
-			sourceTree = "<group>";
-		};
-		BEF7208F1D7AEBC000DC01AB /* RunType */ = {
-			isa = PBXGroup;
-			children = (
-				BEF720901D7AEBC000DC01AB /* WMRunTypeView.swift */,
-			);
-			path = RunType;
 			sourceTree = "<group>";
 		};
 		BEF720911D7AEBC000DC01AB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BEF720DF1D7B372800DC01AB /* WMStatusViewModel.swift */,
+				BEF720E01D7B372800DC01AB /* WMStatusListViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BEF720C51D7B27C700DC01AB /* RunType */ = {
+			isa = PBXGroup;
+			children = (
+				BEF720CE1D7B27DE00DC01AB /* WMRunViewController.swift */,
+				BEF720C61D7B27C700DC01AB /* WMRunTypeButton.swift */,
+				BEF720C71D7B27C700DC01AB /* WMRunTypeButton.xib */,
+				BEF720C81D7B27C700DC01AB /* WMRunTypeView.swift */,
+				BEF720C91D7B27C700DC01AB /* WMRunTypeView.xib */,
+			);
+			path = RunType;
+			sourceTree = "<group>";
+		};
+		BEF720D41D7B324900DC01AB /* TitleButton */ = {
+			isa = PBXGroup;
+			children = (
+				BEF720D51D7B324900DC01AB /* WMTitleButton.swift */,
+			);
+			path = TitleButton;
+			sourceTree = "<group>";
+		};
+		BEF720E31D7B378700DC01AB /* StatausCell */ = {
+			isa = PBXGroup;
+			children = (
+				BEF720E41D7B378700DC01AB /* WMStatusCell.swift */,
+				BEF720E51D7B378700DC01AB /* WMStatusNormalCell.xib */,
+				BEF720E61D7B378700DC01AB /* WMStatusPictureView.swift */,
+				BEF720E71D7B378700DC01AB /* WMStatusRetweetedCell.xib */,
+				BEF720E81D7B378700DC01AB /* WMStatusToolBar.swift */,
+			);
+			path = StatausCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,10 +527,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF720A01D7AEBC000DC01AB /* EVHumanRefreshView.xib in Resources */,
-				BEA2C08B1D7AE52300B8080C /* LaunchScreen.storyboard in Resources */,
+				BEF720D21D7B312300DC01AB /* WMWelComeView.xib in Resources */,
+				BEF720EC1D7B378700DC01AB /* WMStatusRetweetedCell.xib in Resources */,
 				BEA2C0881D7AE52300B8080C /* Assets.xcassets in Resources */,
 				BEF720A31D7AEBC000DC01AB /* EVRefreshView.xib in Resources */,
-				BEA2C0861D7AE52300B8080C /* Main.storyboard in Resources */,
+				BEF720EA1D7B378700DC01AB /* WMStatusNormalCell.xib in Resources */,
+				BEF720C41D7B1C5B00DC01AB /* WMNewFeatureView.xib in Resources */,
+				BEF720CD1D7B27C700DC01AB /* WMRunTypeView.xib in Resources */,
+				BE8F6CCA1D7B5850006A1F00 /* WMVisitorView.xib in Resources */,
+				BEF720DE1D7B32FA00DC01AB /* main.json in Resources */,
+				BEF720CB1D7B27C700DC01AB /* WMRunTypeButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,55 +595,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF720AD1D7AEBC000DC01AB /* WMRunTypeView.swift in Sources */,
 				BEF7209F1D7AEBC000DC01AB /* UIViewController+WMAddition.m in Sources */,
+				BEF720E91D7B378700DC01AB /* WMStatusCell.swift in Sources */,
+				BEF720C31D7B1C5B00DC01AB /* WMNewFeatureView.swift in Sources */,
+				BEF720ED1D7B378700DC01AB /* WMStatusToolBar.swift in Sources */,
 				BEF720A41D7AEBC000DC01AB /* Bundle+Extension.swift in Sources */,
-				BEF720AC1D7AEBC000DC01AB /* WMVistorViewController.swift in Sources */,
+				BEF720AC1D7AEBC000DC01AB /* WMVisitorView.swift in Sources */,
+				BEF720D31D7B312300DC01AB /* WMWelComeView.swift in Sources */,
 				BEF720991D7AEBC000DC01AB /* NSString+WMPath.m in Sources */,
+				BEF720CF1D7B27DE00DC01AB /* WMRunViewController.swift in Sources */,
+				BEF720F81D7B39BB00DC01AB /* WMNetworkManager.swift in Sources */,
+				BEF720D61D7B324900DC01AB /* WMTitleButton.swift in Sources */,
+				BE8F6CCC1D7BE67B006A1F00 /* WMProfileViewController.swift in Sources */,
 				BEF720A61D7AEBC000DC01AB /* String+Extension.swift in Sources */,
 				BEF720981D7AEBC000DC01AB /* NSString+WMHash.m in Sources */,
+				BEF720D81D7B325000DC01AB /* WBHomeViewController.swift in Sources */,
+				BEF720E11D7B372800DC01AB /* WMStatusViewModel.swift in Sources */,
 				BEF720AB1D7AEBC000DC01AB /* WMMainViewController.swift in Sources */,
+				BEF720CC1D7B27C700DC01AB /* WMRunTypeView.swift in Sources */,
 				BEF720AF1D7AEBD800DC01AB /* AppDelegate.swift in Sources */,
 				BEF720A91D7AEBC000DC01AB /* UIimageView+WebImage.swift in Sources */,
 				BEF720A21D7AEBC000DC01AB /* EVRefreshView.swift in Sources */,
+				BEF720E21D7B372800DC01AB /* WMStatusListViewModel.swift in Sources */,
 				BEF720A51D7AEBC000DC01AB /* WMLabel.swift in Sources */,
+				BEF720BA1D7B17D800DC01AB /* WMOAuthViewController.swift in Sources */,
 				BEF720971D7AEBC000DC01AB /* NSString+WMBase64.m in Sources */,
+				BEEFBBC81D7B3B1100BBF8FD /* WBDemoViewController.swift in Sources */,
 				BEF720941D7AEBC000DC01AB /* NSArray+Log.m in Sources */,
+				BE8F6CD11D7BE742006A1F00 /* WMMessageViewController.swift in Sources */,
+				BEF720F71D7B39BB00DC01AB /* WMNetwork+extension.swift in Sources */,
 				BEF720961D7AEBC000DC01AB /* NSObject+WMRuntime.m in Sources */,
 				BEF7209D1D7AEBC000DC01AB /* UIScreen+WMAddition.m in Sources */,
+				BEF720DD1D7B32FA00DC01AB /* WMNavigationController.swift in Sources */,
 				BEF7209C1D7AEBC000DC01AB /* UILabel+WMAddition.m in Sources */,
 				BEF720A71D7AEBC000DC01AB /* UIBarButtonItem+Extension.swift in Sources */,
-				BEA2C0831D7AE52300B8080C /* ViewController.swift in Sources */,
 				BEF7209E1D7AEBC000DC01AB /* UIView+WMAddition.m in Sources */,
 				BEF720A81D7AEBC000DC01AB /* UIimage+Extension.swift in Sources */,
+				BEF720DC1D7B32FA00DC01AB /* WMBaseViewController.swift in Sources */,
 				BEF720AA1D7AEBC000DC01AB /* WMCommon.swift in Sources */,
+				BEF720CA1D7B27C700DC01AB /* WMRunTypeButton.swift in Sources */,
 				BEF720A11D7AEBC000DC01AB /* EVRefreshControl.swift in Sources */,
 				BEF720951D7AEBC000DC01AB /* NSAttributedString+WMAdditon.m in Sources */,
+				BEF720EB1D7B378700DC01AB /* WMStatusPictureView.swift in Sources */,
 				BEF7209A1D7AEBC000DC01AB /* UIButton+WMAddition.m in Sources */,
+				BE8F6CCE1D7BE698006A1F00 /* WMDiscoverViewController.swift in Sources */,
+				BEF720F91D7B39BB00DC01AB /* WMUserAccount.swift in Sources */,
 				BEF7209B1D7AEBC000DC01AB /* UIColor+WMAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		BEA2C0841D7AE52300B8080C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEA2C0851D7AE52300B8080C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BEA2C0891D7AE52300B8080C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEA2C08A1D7AE52300B8080C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BEA2C08D1D7AE52300B8080C /* Debug */ = {
